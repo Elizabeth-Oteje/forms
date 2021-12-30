@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <form action="" method="">
+        <label for="name">first name :</label>
+        <input size="20" maxlength="6" minlength="2" type="text" name="name" id="">
+        <br>
+        <p>password</p>
+        <input type="password" placeholder="password">
+        <br>
+        <br>
+        <input type="email" name="" id="" value="email@gmail.com">
+        <br>
+        <p>Description</p>
+        <textarea name="" id="" cols="20" rows="10"></textarea>
+        <br>
+        Please select your favorite coding language
+        <input type="radio" name="coding" id="" value="Javascript">Javascript
+        <input type="radio" name="coding" id="" value="Java">Java
+        <input type="radio" name="coding" id="" value="Python">Python
+        <br>
+        <br>
+        <p>Please select your country</p>   
+        <input type="checkbox" value="Nigeria" checked name="country" id="">Nigeria
+        <input type="checkbox" value="Ghana" name="country" id="">Ghana
+        <input type="checkbox" value="Egypt" name="country" id="">Egypt
+        <br>
+        <br>
+        <!--the select attribute and input list plus datalist id are two ways to do a dropdown-->
+        Please select your state
+            <select name="state" multiple>
+            <option value="LG">Lagos</option>
+            <option value="OD">Ondo</option>
+            <option value="OS">Osun</option>
+            <option value="OY">Oyo</option>
+        </select>
+        <br>
+        <br>
+        City lived in:
+            <input list="cities"/>
+            <datalist id="cities">
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Delhi">Delhi</option>
+            <option selected value="Kolkata">Kolkata</option>
+            </datalist> <br/>
+
+
+        <input type="submit" value="submit please">
+       <!--another option is <button type="submit">submit</button>--> 
+    </form>
+</body>
+</html>
